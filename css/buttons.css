@@ -1,0 +1,19 @@
+.btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    background-color: #193b84; /* Default color */
+}
+
+.anuncios { 
+    background-color: #e66f67; 
+}
+.login { 
+    background-color: #7eddf2; 
+}
+.register { 
+    background-color: #9bbcf2; 
+}

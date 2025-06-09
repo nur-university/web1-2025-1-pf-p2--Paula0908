@@ -1,0 +1,21 @@
+.destacado-section{
+    justify-items: center;
+    align-items: center; 
+}
+
+.destacado {
+    color: #6c3c20;
+    background-color: #e18c5c; 
+    padding: 0 10px;
+    margin: 10px;
+    margin-bottom: -5px;
+    text-align: center;
+}
+.destacado-section .titulo-container {
+        width: 90%;
+        justify-content: right;
+}
+
+@media (min-width: 768px){
+
+}

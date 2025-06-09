@@ -1,0 +1,80 @@
+.categorias-and-sesion{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.categorias-section {
+    width: 100%;
+    max-width: 500px;
+}
+.lista-categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+}
+.categorias {
+    color: #1c8471;
+    background-color: #89e6d5; 
+    padding: 0 10px;
+    margin: 10px;
+    margin-bottom: -5px;
+    padding: 0 20px;
+    text-align: center;
+
+    
+}
+.categoria{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    transition: transform 0.2s; /*tiempo para*/
+
+}
+.categoria:hover {
+    transform: scale(1.05); /*cambia su tamaño*/
+    cursor: pointer;
+}
+
+.login-box {
+    background-color: #b7e3ff;
+    color: #1e5d88;
+}
+
+
+.register-box {
+    background-color: #b6bafc;
+    color: #3f3fcf;
+}
+.cuentas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.cuenta {
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s; /*tiempo para*/
+
+}
+
+.cuenta:hover{
+    transform: scale(1.05); /*cambia su tamaño*/
+    cursor: pointer;
+}

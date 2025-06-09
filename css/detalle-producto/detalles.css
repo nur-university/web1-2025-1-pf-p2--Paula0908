@@ -1,0 +1,109 @@
+.detalles-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; /* Para centrar la card */
+}
+
+.detalles-section .container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #d4d4d4;
+    border-radius: 8px;
+}
+
+.img-box {
+    width: 100%;
+    max-width: 300px; /* Puedes ajustar esto */
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.detalles-texto {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    padding: 10px;
+}
+.detalles-texto  h2,.detalles-texto  p,.detalles-texto  h4{
+    margin: 5px 0;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 29px;
+}
+.btn-container .btn {
+    padding: 10px 20px;
+
+    color: white;
+    border: none;
+    border-radius: 8px 8px 0 0 ;
+    font-size: 26px;
+}
+.tag{
+    background-color: #59cbbd;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px 0;
+}
+.price {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+}
+@media (min-width: 768px){
+
+.detalles-section {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.detalles-section .container {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #d4d4d4;
+    border-radius: 8px;
+}
+.img-box{
+     max-width: 400px; /* Puedes ajustar esto */
+}
+.detalles-texto{
+        max-width: 300px;
+}
+    .btn-container{
+    flex-direction: column;
+    padding-left: 10px;
+    margin-left: -15px;
+    font-size: 29px;
+
+}
+.btn-container .btn {
+    width: 55px;
+    border-radius: 0  8px 8px 0;
+
+}
+}

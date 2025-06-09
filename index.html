@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MarketPlace - web 1</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/buttons.css">
+        <link rel="stylesheet" href="css/search-bar.css">
+        <link rel="stylesheet" href="css/separadores.css">
+        <link rel="stylesheet" href="css/productos.css">
+        <link rel="stylesheet" href="css/index/destacado.css">
+        <link rel="stylesheet" href="css/index/categorias.css">
+
+    </head>
+    <body>
+        <header class="header-container">
+            <div class="header-items">
+                <a href="index.html" class="clickeable">
+                    <div class="logo-container">
+                    <img class="logo" src="Img/laptop-online-shop-svgrepo-com.svg" alt="Logo">
+                    <span class="logo-text">MarketPlace</span>
+                    </div>
+                </a>
+                <nav class="menu">
+                    <li>
+                        <a href="anuncios.html">
+                        <button class="btn anuncios">Anuncios</button>
+                        </a>
+                    </li>
+                    <li><button class="btn login">Iniciar Sesión</button></li>
+                    <li><button class="btn register">Crear Cuenta</button></li>
+                </nav>
+            </div>
+        </header>  
+        <main class="main-container">
+            <Section class="busqueda-section"> 
+                <div class="barra-busqueda">
+                    <input type="text" placeholder="Buscar...">
+                    <button class="btn-buscar"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </Section>
+            <section class="destacado-section">
+                <div class="titulo-container">
+                    <div class="separador destacado">Mejores Productos</div>
+                </div>
+                <div class="container productos">
+                    <!-- Aqui debe de agregarse las cosas desde la base de datos (cuando tenga jeje :3) -->
+                    <div class="producto">
+                        <img class="img-producto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1I5aYLBI5TImZ8uM4rHny-K8eKptMfCAKRQ&s" 
+                        alt="Producto 1">
+                        <h3>Zapatillas Deportivas</h3>
+                        <p class="precio"><strong>345,22 Bs</strong></p>
+                        <p>Cómodas y ligeras</p>
+                    </div>  
+                    <a href="detalle-producto.html" class="clickeable producto">
+                        <img class="img-producto" src="https://calimodpruebaio.vtexassets.com/arquivos/ids/282523/6AMU2020012-1.jpg?v=638713666171370000" 
+                        alt="Producto 2">
+                        <h3>Mochila Escolar</h3>
+                        <p class="precio"><strong>173,04 Bs</strong></p>
+                        <p>Espaciosa y duradera</p>
+                    </a>
+
+                    <div class="producto">
+                        <img class="img-producto" src="https://sutoasv.com/wp-content/uploads/2024/07/AUDIFONOS-A520-NEGRO-2-SUTOA-EL-SALVADOR.webp" 
+                        alt="Producto 3">
+                        <h3>Audífonos Bluetooth</h3>
+                        <p class="precio"><strong>415,29 Bs</strong></p>
+                        <p>Sonido nítido y conexión rápida</p>
+                    </div>  
+
+                    <div class="producto">
+                        <img class="img-producto" src="https://acdn-us.mitiendanube.com/stores/564/930/products/20240314_091954-8ccc0cf1d94affbd6017105966634619-1024-1024.jpg" 
+                        alt="Producto 4">
+                        <h3>Botella Térmica</h3>
+                        <p class="precio"><strong>107,28 Bs</strong></p>
+                        <p>Cómodas y ligeras</p>
+                    </div> 
+            </section>
+            <section class="categorias-and-sesion">
+                <section class="categorias-section">
+                    <div class="separador categorias">Todas las Categorías</div>
+                    <div class="container lista-categorias">
+                        <div class="categoria color1">categoria 1</div>
+                        <div class="categoria color2">categoria 2</div>
+                        <div class="categoria color3">categoria 3</div>
+                        <div class="categoria color4">categoria 4</div>
+                        <div class="categoria color5">categoria 5</div>
+                        <div class="categoria color6">categoria 6</div>
+                    </div>
+                </section>
+                <div class="cuentas">
+                <div class="cuenta login-box">
+                    ¿Ya tienes una cuenta?<br><strong>Inicia Sesión</strong>
+                </div>
+                <div class="cuenta register-box">
+                    ¿No tienes una cuenta?<br><strong>Regístrate</strong>
+                </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Los botones que funcionan para testear son el de anuncios y 
+                el 2do anuncio y el logo sirve para volver a la pag principal :D</p>
+        </footer>
+    </body>
+</html>
