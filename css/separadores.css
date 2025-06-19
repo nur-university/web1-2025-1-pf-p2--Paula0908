@@ -1,0 +1,22 @@
+.separador {
+    width: fit-content;
+    height: 40px;
+    margin: 0 5px;
+    align-content: center;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px 6px 0 0;
+    cursor: pointer;
+}
+
+.container{
+    background-color: #d9d7d7;
+    border-radius: 6px;
+    padding: 10px;
+}
+.titulo-container{
+    display: flex;
+}
+
+
+
